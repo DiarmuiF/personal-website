@@ -1,15 +1,19 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: bisque;
+    margin: 0;
 }
 
-div {
-    border: red solid;
+.container {
+    position: relative;
+    height: 100vh;
 }
 
 .navbar {
+    position: absolute;
     display: flex;
     justify-content: space-between;
+    width: 100vw
 }
 
 .name, .nav-links {
@@ -17,9 +21,31 @@ div {
     justify-content: center;
     align-items: flex-start;
     padding: 20px 100px;
+    font-size: 30px;
+    font-weight: 600;
 }
 
 .nav-links {
     justify-content: flex-end;
     gap: 40px;
+    font-size: 30px;
+    font-weight: 400
+}
+
+.front-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.content {
+    height: 50vh;
+    width: 80vh;
+    display: flex;
+}
+
+.intro {
+    font-size: 40px;
+    font-weight: 700;
 }
