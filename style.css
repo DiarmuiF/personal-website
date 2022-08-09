@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: bisque;
+}
+
+div {
+    border: red solid;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.name, .nav-links {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px 100px;
+}
+
+.nav-links {
+    justify-content: flex-end;
+    gap: 40px;
+}
