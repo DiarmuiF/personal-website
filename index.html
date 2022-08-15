@@ -18,24 +18,6 @@
             <div class="nav-links">
                 <a href="https://www.linkedin.com/in/diarmuid-finnan/" target="_blank" ><img src="./img/logos/LinkedIn-Logos/LI-In-Bug.png" alt="LinkedIn Logo"></a>
                 <a href="https://github.com/DiarmuiF" target="_blank" ><img src="./img/logos/GitHub-Mark/PNG/GitHub-Mark-64px.png" alt="GitHub Logo"></a>
-                <label for="theme">Select theme: </label>
-                <select id="theme">
-                    <option value="light">Light</option>
-                    <option value="dark">Dark</option>
-                </select>
-                <script>
-                    const select = document.querySelector('select');
-                    const html = document.querySelector('html');
-                    function update(bgColor, textColor) {
-                        html.style.backgroundColor = bgColor;
-                        html.style.color = textColor;
-                        }
-
-                    select.addEventListener('change', () => select.value === 'dark'
-                    ? update('#3d4f42', 'white')
-                    : update('bisque', 'black')
-                    );
-                </script>
             </div>
         </div>
         <div class="front-page">
